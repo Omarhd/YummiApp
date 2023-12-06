@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161E89E72B1FB55200F32E26 /* SpeacialsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161E89E62B1FB55200F32E26 /* SpeacialsRowView.swift */; };
+		161E89E92B20090D00F32E26 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161E89E82B20090D00F32E26 /* SkeletonView.swift */; };
 		169583E42B1E5A0300A5C69A /* YummiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169583E32B1E5A0300A5C69A /* YummiAppApp.swift */; };
-		169583E62B1E5A0300A5C69A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169583E52B1E5A0300A5C69A /* ContentView.swift */; };
-		169583E82B1E5A0300A5C69A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169583E72B1E5A0300A5C69A /* Item.swift */; };
+		169583E62B1E5A0300A5C69A /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169583E52B1E5A0300A5C69A /* TabBarView.swift */; };
 		169583EA2B1E5A0400A5C69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169583E92B1E5A0400A5C69A /* Assets.xcassets */; };
 		169583ED2B1E5A0400A5C69A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169583EC2B1E5A0400A5C69A /* Preview Assets.xcassets */; };
 		169583F72B1E5A0400A5C69A /* YummiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169583F62B1E5A0400A5C69A /* YummiAppTests.swift */; };
 		169584012B1E5A0400A5C69A /* YummiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169584002B1E5A0400A5C69A /* YummiAppUITests.swift */; };
 		169584032B1E5A0400A5C69A /* YummiAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169584022B1E5A0400A5C69A /* YummiAppUITestsLaunchTests.swift */; };
+		169584132B1E5B1000A5C69A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169584122B1E5B1000A5C69A /* Launch Screen.storyboard */; };
+		169584182B1E5CDF00A5C69A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169584172B1E5CDF00A5C69A /* HomeView.swift */; };
+		1695841A2B1E60A900A5C69A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169584192B1E60A900A5C69A /* SettingsView.swift */; };
+		1695841C2B1E611700A5C69A /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695841B2B1E611700A5C69A /* OrdersView.swift */; };
+		1695841E2B1E613700A5C69A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695841D2B1E613700A5C69A /* SearchView.swift */; };
+		169584332B1E702000A5C69A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169584322B1E702000A5C69A /* NetworkManager.swift */; };
+		169584352B1E704700A5C69A /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169584342B1E704700A5C69A /* APIEndPoints.swift */; };
+		169584372B1E708600A5C69A /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169584362B1E708600A5C69A /* HomeModel.swift */; };
+		169584392B1E7AB600A5C69A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169584382B1E7AB500A5C69A /* HomeViewModel.swift */; };
+		16FC8F522B1F5CD0003FA460 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FC8F512B1F5CD0003FA460 /* CategoriesView.swift */; };
+		16FC8F542B1F61ED003FA460 /* PopularsAndSpecialsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FC8F532B1F61ED003FA460 /* PopularsAndSpecialsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		169583E02B1E5A0300A5C69A /* YummiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YummiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		161E89E62B1FB55200F32E26 /* SpeacialsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeacialsRowView.swift; sourceTree = "<group>"; };
+		161E89E82B20090D00F32E26 /* SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonView.swift; sourceTree = "<group>"; };
+		169583E02B1E5A0300A5C69A /* Yummi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169583E32B1E5A0300A5C69A /* YummiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummiAppApp.swift; sourceTree = "<group>"; };
-		169583E52B1E5A0300A5C69A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		169583E72B1E5A0300A5C69A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		169583E52B1E5A0300A5C69A /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		169583E92B1E5A0400A5C69A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		169583EC2B1E5A0400A5C69A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		169583F22B1E5A0400A5C69A /* YummiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YummiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +59,20 @@
 		169583FC2B1E5A0400A5C69A /* YummiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YummiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		169584002B1E5A0400A5C69A /* YummiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummiAppUITests.swift; sourceTree = "<group>"; };
 		169584022B1E5A0400A5C69A /* YummiAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummiAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		169584122B1E5B1000A5C69A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		169584172B1E5CDF00A5C69A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		169584192B1E60A900A5C69A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1695841B2B1E611700A5C69A /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		1695841D2B1E613700A5C69A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		1695842E2B1E6D0C00A5C69A /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		1695842F2B1E6D1800A5C69A /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		169584322B1E702000A5C69A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		169584342B1E704700A5C69A /* APIEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoints.swift; sourceTree = "<group>"; };
+		169584362B1E708600A5C69A /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		169584382B1E7AB500A5C69A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1695843B2B1E7E8900A5C69A /* Yummi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Yummi-Info.plist"; sourceTree = "<group>"; };
+		16FC8F512B1F5CD0003FA460 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		16FC8F532B1F61ED003FA460 /* PopularsAndSpecialsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularsAndSpecialsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +103,7 @@
 		169583D72B1E5A0300A5C69A = {
 			isa = PBXGroup;
 			children = (
+				1695843B2B1E7E8900A5C69A /* Yummi-Info.plist */,
 				169583E22B1E5A0300A5C69A /* YummiApp */,
 				169583F52B1E5A0400A5C69A /* YummiAppTests */,
 				169583FF2B1E5A0400A5C69A /* YummiAppUITests */,
@@ -86,7 +114,7 @@
 		169583E12B1E5A0300A5C69A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				169583E02B1E5A0300A5C69A /* YummiApp.app */,
+				169583E02B1E5A0300A5C69A /* Yummi.app */,
 				169583F22B1E5A0400A5C69A /* YummiAppTests.xctest */,
 				169583FC2B1E5A0400A5C69A /* YummiAppUITests.xctest */,
 			);
@@ -96,9 +124,11 @@
 		169583E22B1E5A0300A5C69A /* YummiApp */ = {
 			isa = PBXGroup;
 			children = (
-				169583E32B1E5A0300A5C69A /* YummiAppApp.swift */,
-				169583E52B1E5A0300A5C69A /* ContentView.swift */,
-				169583E72B1E5A0300A5C69A /* Item.swift */,
+				1695842D2B1E6CF600A5C69A /* Config */,
+				169584262B1E6C3800A5C69A /* Network */,
+				169584142B1E5BD500A5C69A /* Lunch */,
+				169584152B1E5BDF00A5C69A /* App */,
+				169584162B1E5BF100A5C69A /* Screens */,
 				169583E92B1E5A0400A5C69A /* Assets.xcassets */,
 				169583EB2B1E5A0400A5C69A /* Preview Content */,
 			);
@@ -130,12 +160,104 @@
 			path = YummiAppUITests;
 			sourceTree = "<group>";
 		};
+		169584142B1E5BD500A5C69A /* Lunch */ = {
+			isa = PBXGroup;
+			children = (
+				169584122B1E5B1000A5C69A /* Launch Screen.storyboard */,
+			);
+			path = Lunch;
+			sourceTree = "<group>";
+		};
+		169584152B1E5BDF00A5C69A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				169583E32B1E5A0300A5C69A /* YummiAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		169584162B1E5BF100A5C69A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1695841F2B1E616000A5C69A /* TabBar */,
+				169584202B1E616C00A5C69A /* Home */,
+				169584222B1E617E00A5C69A /* Orders */,
+				169584232B1E618600A5C69A /* Search */,
+				169584212B1E617400A5C69A /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1695841F2B1E616000A5C69A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				169583E52B1E5A0300A5C69A /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		169584202B1E616C00A5C69A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				169584172B1E5CDF00A5C69A /* HomeView.swift */,
+				169584382B1E7AB500A5C69A /* HomeViewModel.swift */,
+				169584362B1E708600A5C69A /* HomeModel.swift */,
+				16FC8F512B1F5CD0003FA460 /* CategoriesView.swift */,
+				16FC8F532B1F61ED003FA460 /* PopularsAndSpecialsRowView.swift */,
+				161E89E62B1FB55200F32E26 /* SpeacialsRowView.swift */,
+				161E89E82B20090D00F32E26 /* SkeletonView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		169584212B1E617400A5C69A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				169584192B1E60A900A5C69A /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		169584222B1E617E00A5C69A /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				1695841B2B1E611700A5C69A /* OrdersView.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		169584232B1E618600A5C69A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				1695841D2B1E613700A5C69A /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		169584262B1E6C3800A5C69A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				169584322B1E702000A5C69A /* NetworkManager.swift */,
+				169584342B1E704700A5C69A /* APIEndPoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1695842D2B1E6CF600A5C69A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1695842E2B1E6D0C00A5C69A /* Debug.xcconfig */,
+				1695842F2B1E6D1800A5C69A /* Release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		169583DF2B1E5A0300A5C69A /* YummiApp */ = {
+		169583DF2B1E5A0300A5C69A /* Yummi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 169584062B1E5A0400A5C69A /* Build configuration list for PBXNativeTarget "YummiApp" */;
+			buildConfigurationList = 169584062B1E5A0400A5C69A /* Build configuration list for PBXNativeTarget "Yummi" */;
 			buildPhases = (
 				169583DC2B1E5A0300A5C69A /* Sources */,
 				169583DD2B1E5A0300A5C69A /* Frameworks */,
@@ -145,9 +267,9 @@
 			);
 			dependencies = (
 			);
-			name = YummiApp;
+			name = Yummi;
 			productName = YummiApp;
-			productReference = 169583E02B1E5A0300A5C69A /* YummiApp.app */;
+			productReference = 169583E02B1E5A0300A5C69A /* Yummi.app */;
 			productType = "com.apple.product-type.application";
 		};
 		169583F12B1E5A0400A5C69A /* YummiAppTests */ = {
@@ -222,7 +344,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				169583DF2B1E5A0300A5C69A /* YummiApp */,
+				169583DF2B1E5A0300A5C69A /* Yummi */,
 				169583F12B1E5A0400A5C69A /* YummiAppTests */,
 				169583FB2B1E5A0400A5C69A /* YummiAppUITests */,
 			);
@@ -234,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				169584132B1E5B1000A5C69A /* Launch Screen.storyboard in Resources */,
 				169583ED2B1E5A0400A5C69A /* Preview Assets.xcassets in Resources */,
 				169583EA2B1E5A0400A5C69A /* Assets.xcassets in Resources */,
 			);
@@ -260,9 +383,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				169583E62B1E5A0300A5C69A /* ContentView.swift in Sources */,
-				169583E82B1E5A0300A5C69A /* Item.swift in Sources */,
+				1695841C2B1E611700A5C69A /* OrdersView.swift in Sources */,
+				161E89E92B20090D00F32E26 /* SkeletonView.swift in Sources */,
+				169584182B1E5CDF00A5C69A /* HomeView.swift in Sources */,
+				1695841A2B1E60A900A5C69A /* SettingsView.swift in Sources */,
+				169584392B1E7AB600A5C69A /* HomeViewModel.swift in Sources */,
+				169584352B1E704700A5C69A /* APIEndPoints.swift in Sources */,
+				169584332B1E702000A5C69A /* NetworkManager.swift in Sources */,
+				169583E62B1E5A0300A5C69A /* TabBarView.swift in Sources */,
+				1695841E2B1E613700A5C69A /* SearchView.swift in Sources */,
+				16FC8F522B1F5CD0003FA460 /* CategoriesView.swift in Sources */,
 				169583E42B1E5A0300A5C69A /* YummiAppApp.swift in Sources */,
+				161E89E72B1FB55200F32E26 /* SpeacialsRowView.swift in Sources */,
+				16FC8F542B1F61ED003FA460 /* PopularsAndSpecialsRowView.swift in Sources */,
+				169584372B1E708600A5C69A /* HomeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +422,12 @@
 /* Begin PBXTargetDependency section */
 		169583F42B1E5A0400A5C69A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 169583DF2B1E5A0300A5C69A /* YummiApp */;
+			target = 169583DF2B1E5A0300A5C69A /* Yummi */;
 			targetProxy = 169583F32B1E5A0400A5C69A /* PBXContainerItemProxy */;
 		};
 		169583FE2B1E5A0400A5C69A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 169583DF2B1E5A0300A5C69A /* YummiApp */;
+			target = 169583DF2B1E5A0300A5C69A /* Yummi */;
 			targetProxy = 169583FD2B1E5A0400A5C69A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -301,6 +435,7 @@
 /* Begin XCBuildConfiguration section */
 		169584042B1E5A0400A5C69A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1695842E2B1E6D0C00A5C69A /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -364,6 +499,7 @@
 		};
 		169584052B1E5A0400A5C69A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1695842F2B1E6D1800A5C69A /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -420,6 +556,7 @@
 		};
 		169584072B1E5A0400A5C69A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1695842E2B1E6D0C00A5C69A /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -429,11 +566,12 @@
 				DEVELOPMENT_TEAM = 2C4XF58Z9A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yummi-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,6 +579,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yummi.swifui.app.YummiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,6 +590,7 @@
 		};
 		169584082B1E5A0400A5C69A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1695842F2B1E6D1800A5C69A /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,11 +600,12 @@
 				DEVELOPMENT_TEAM = 2C4XF58Z9A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yummi-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +613,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yummi.swifui.app.YummiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,6 +624,7 @@
 		};
 		1695840A2B1E5A0400A5C69A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1695842E2B1E6D0C00A5C69A /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +645,7 @@
 		};
 		1695840B2B1E5A0400A5C69A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1695842F2B1E6D1800A5C69A /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +666,7 @@
 		};
 		1695840D2B1E5A0400A5C69A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1695842E2B1E6D0C00A5C69A /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +685,7 @@
 		};
 		1695840E2B1E5A0400A5C69A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1695842F2B1E6D1800A5C69A /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,7 +714,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		169584062B1E5A0400A5C69A /* Build configuration list for PBXNativeTarget "YummiApp" */ = {
+		169584062B1E5A0400A5C69A /* Build configuration list for PBXNativeTarget "Yummi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				169584072B1E5A0400A5C69A /* Debug */,

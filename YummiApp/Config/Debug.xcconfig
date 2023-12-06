@@ -1,0 +1,16 @@
+//
+//  Debug.xcconfig
+//  YummiApp
+//
+//  Created by Omar Abdulrahman on 05/12/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SLASH = /
+
+BASE_URL = https:$(SLASH)/yummie.glitch.me/
+AUTH_URL = http:$(SLASH)/127.0.0.4:3000/
+
+APP_DISPLAY_NAME = Yummie - Debug
